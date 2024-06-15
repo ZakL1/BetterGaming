@@ -3,39 +3,42 @@
 
 
 
-/* Header */
+/* Header */ 
 header {
     position: absolute;
     background-color: black;
-    height: 12vh;
+    height: 8vh;
     line-height: 2vh;
-    font-size: 20px;
     width: 100%;
     display: block;
-    text-align: center;
+}
+
+h1 {
     letter-spacing: 1px;
     font-family: "Roboto", sans-serif;
     color: #66fcf1;
+    font-size: 40px;
+    padding-left: 38px;
 }
+  
 /* Nav bar */
-#menu {
-    width: 100%;
-    color: white;
+ul {
+    background-color: #3e4042;
 }
 
-
-ul li {
+li {
     list-style-type: none;
-    display: inline-block;
-    padding-right: 1em;
-    font-family: "Roboto", sans-serif;
+    font-family: "roboto", sans-serif;
+    color: #66fcf1;
+    display: inline;
+    margin-right: 20px;
 }
 
 ul li a {
     text-decoration: none;
-    color: #66fcf1;
-    text-align: center;
+    color:#66fcf1;
 }
+
 
 
 body {
@@ -59,25 +62,24 @@ footer {
     height: 6vh;
 }
 
-/* Large devices, tablets and laptops */
+/* Large devices, tablets and laptops */ 
 @media screen and (min-width: 992px) {
 
     #nav a:hover {
         background-color: #aeb7bf;
     }
-/*
-    header {
+
+    #mainheading {
         font-size: 38px;
         letter-spacing: 2px;
-        display: flex;
-        justify-content: space-between;
         padding-left: 100px;
+        display: flex;
     }
 
-    ul li {
+    #nav {      
         padding-top: 20px;
         font-size: 25px;
         padding-right: 30px;
     }
-*/
-}
+
+} 
