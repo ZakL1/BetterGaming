@@ -6,7 +6,7 @@
 /* Header */
 header {
     position: absolute;
-    background-color: white;
+    background-color: black;
     height: 12vh;
     line-height: 2vh;
     font-size: 20px;
@@ -14,8 +14,10 @@ header {
     display: block;
     text-align: center;
     letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    color: #66fcf1;
 }
-
+/* Nav bar */
 #menu {
     width: 100%;
     color: white;
@@ -26,11 +28,12 @@ ul li {
     list-style-type: none;
     display: inline-block;
     padding-right: 1em;
+    font-family: "Roboto", sans-serif;
 }
 
 ul li a {
     text-decoration: none;
-    color: black;
+    color: #66fcf1;
     text-align: center;
 }
 
@@ -60,7 +63,21 @@ footer {
 @media screen and (min-width: 992px) {
 
     #nav a:hover {
-        text-decoration: underline;
+        background-color: #aeb7bf;
+    }
+/*
+    header {
+        font-size: 38px;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
     }
 
+    ul li {
+        padding-top: 20px;
+        font-size: 25px;
+        padding-right: 30px;
+    }
+*/
 }
