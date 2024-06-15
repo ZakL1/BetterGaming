@@ -22,9 +22,7 @@ h1 {
 }
   
 /* Nav bar */
-ul {
-    background-color: #3e4042;
-}
+
 
 li {
     list-style-type: none;
@@ -34,7 +32,7 @@ li {
     margin-right: 20px;
 }
 
-ul li a {
+ul, li, a {
     text-decoration: none;
     color:#66fcf1;
 }
@@ -62,18 +60,43 @@ footer {
     height: 6vh;
 }
 
-/* Large devices, tablets and laptops */ 
+/* Large devices laptops */ 
 @media screen and (min-width: 992px) {
 
     #nav a:hover {
         background-color: #aeb7bf;
     }
 
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #mainheading {
+        line-height: 40px;
+        font-size: 70px;
+    }
+
+    ul {
+        float: right;
+        margin-right: 30px;
+        left: 130px;
+        line-height: 40px;
+        font-size: 40px;
+    }
+/*
+    ul, li {
+        display: inline-block;
+        line-height: 30px;
+        padding-left: 20px;
+    }
+*/
+  
+/*
     #mainheading {
         font-size: 38px;
         letter-spacing: 2px;
         padding-left: 100px;
-        display: flex;
     }
 
     #nav {      
@@ -82,4 +105,9 @@ footer {
         padding-right: 30px;
     }
 
+    #menu {
+        display: flex;
+        justify-content: space-between;
+    }
+*/
 } 
