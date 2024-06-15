@@ -1,15 +1,38 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 /* Header */
 header {
     position: absolute;
     background-color: white;
-    height: 8vh;
+    height: 12vh;
     line-height: 2vh;
     font-size: 20px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
+#menu {
+    width: 100%;
+    color: white;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
 
 
 body {
@@ -31,4 +54,13 @@ main {
 footer {
     flex-direction: column;
     height: 6vh;
+}
+
+/* Large devices, tablets and laptops */
+@media screen and (min-width: 992px) {
+
+    #nav a:hover {
+        text-decoration: underline;
+    }
+
 }
