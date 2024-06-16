@@ -42,6 +42,7 @@ ul, li, a {
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 
@@ -50,15 +51,25 @@ main {
     display: flex;
     background-color: black;
     color: white;
-    min-height: 100vh;
+    min-height: 95vh;
     width: 100%;
 }
 
 /* Footer */
 footer {
     flex-direction: column;
-    height: 6vh;
+    height: 5vh;
+    background-color: black;
 }
+
+/* Social media icons */
+#social {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
 
 /* Large devices laptops */ 
 @media screen and (min-width: 992px) {
@@ -84,30 +95,4 @@ footer {
         line-height: 40px;
         font-size: 40px;
     }
-/*
-    ul, li {
-        display: inline-block;
-        line-height: 30px;
-        padding-left: 20px;
-    }
-*/
-  
-/*
-    #mainheading {
-        font-size: 38px;
-        letter-spacing: 2px;
-        padding-left: 100px;
-    }
-
-    #nav {      
-        padding-top: 20px;
-        font-size: 25px;
-        padding-right: 30px;
-    }
-
-    #menu {
-        display: flex;
-        justify-content: space-between;
-    }
-*/
 } 
