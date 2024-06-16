@@ -68,10 +68,35 @@ footer {
     font-size: 30px;
 }
 
+/* Tablets/ipads */
+@media screen and (min-width: 760px) {
 
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    #mainheading {
+        line-height: 40px;
+        font-size: 50px;
+    }
 
-/* Large devices laptops */ 
+    #nav {
+        float: right;
+        margin-right: 30px;
+        left: 130px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #social {
+        text-align: center;
+        font-size: 35px;
+    }
+
+}
+
+/* small laptops large tablets */ 
 @media screen and (min-width: 992px) {
 
     #nav a:hover {
@@ -85,7 +110,7 @@ footer {
 
     #mainheading {
         line-height: 40px;
-        font-size: 70px;
+        font-size: 68px;
     }
 
     #nav {
@@ -93,11 +118,41 @@ footer {
         margin-right: 30px;
         left: 130px;
         line-height: 40px;
-        font-size: 40px;
+        font-size: 36px;
     }
 
     #social {
         text-align: center;
         font-size: 50px;
     }
+}
+    /* Large computer screens */
+    @media screen and (min-width: 1200px) {
+
+        #nav a:hover {
+            background-color: #aeb7bf;
+        }
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        #mainheading {
+            line-height: 40px;
+            font-size: 70px;
+        }
+    
+        #nav {
+            float: right;
+            margin-right: 30px;
+            left: 130px;
+            line-height: 40px;
+            font-size: 40px;
+        }
+    
+        #social {
+            text-align: center;
+            font-size: 50px;
+        }
 } 
