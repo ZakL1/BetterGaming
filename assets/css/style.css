@@ -7,7 +7,7 @@
 header {
     position: absolute;
     background-color: black;
-    height: 8vh;
+    height: 11vh;
     line-height: 2vh;
     width: 100%;
     display: block;
@@ -42,23 +42,29 @@ ul, li, a {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 
 /* Main content*/
 main {
     display: flex;
-    background-color: black;
     color: white;
     min-height: 95vh;
     width: 100%;
 }
 
+/* Hero image */
+
+#hero {
+   height: 600px;
+   width: 100%;
+   background: url('/assets/css/images/gaming.webp') no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
     flex-direction: column;
-    height: 5vh;
+    height: 6vh;
     background-color: black;
 }
 
@@ -106,6 +112,7 @@ footer {
     header {
         display: flex;
         justify-content: space-between;
+        height: 12vh;
     }
 
     #mainheading {
@@ -120,6 +127,8 @@ footer {
         line-height: 40px;
         font-size: 36px;
     }
+
+    
 
     #social {
         text-align: center;
