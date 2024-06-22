@@ -168,6 +168,24 @@ footer {
         font-size: 24px;  
     }
 
+    /* Image styles */
+    img {
+        width: 250px;
+        height: 400px;
+    }
+
+    #covers {
+        height: 400px;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+    }
 }
 
 /* small laptops large tablets */ 
@@ -208,6 +226,8 @@ footer {
         color: white;
         font-size: 26px;
     }
+
+    
 }
     /* Large computer screens */
     @media screen and (min-width: 1200px) {
@@ -262,5 +282,25 @@ footer {
             font-size: 20px;
             color: white; 
             font-family: 'roboto', sans-serif;
+        }
+
+        /* image styles */
+        img {
+            width: 350px;
+            height: 500px;
+        }
+
+        #covers {
+            padding-top: 50px;
+            height: 600px;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
         }
 } 
