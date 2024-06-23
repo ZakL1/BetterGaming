@@ -136,6 +136,11 @@ footer {
     font-size: 30px;
 }
 
+/* Contact form page */
+#contact-form {
+    height: 1100px;
+}
+
 /* Tablets/ipads */
 @media screen and (min-width: 768px) {
 
