@@ -214,6 +214,23 @@ footer {
         flex: 33.33%;
         padding: 5px;
     }
+
+    /* Contact form */
+    input[type=text], select {
+        width: 100%;
+        border: 6px;
+        padding: 18px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    input[type=submit] {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 24px;
+    }
 }
 
 /* small laptops large tablets */ 
