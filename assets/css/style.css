@@ -137,7 +137,13 @@ img {
     margin: auto;
 }
 
-
+input[type=text], select {
+    width: 100%;
+    border: 4px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* Footer */
 footer {
