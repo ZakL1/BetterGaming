@@ -122,6 +122,19 @@ img {
     margin-right: auto;
 }
 
+/* Info page */
+#course-info {
+    height: 1000px;
+}
+
+#general-info {
+    margin-top: 16vh;
+}
+
+.div-info {
+    text-align: center;
+}
+
 /* Contact form page */
 #contact-form {
     height: 1000px;
