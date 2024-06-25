@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BetterGaming</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/jpg" href="assets/css/images/favicon.jpg">
+    <link rel="icon" type="image/jpg" href="assets/images/favicon.jpg">
     <script src="https://kit.fontawesome.com/ddd24e2407.js" crossorigin="anonymous"></script>
 </head>
 <body> 
@@ -32,26 +32,26 @@
        <!-- Contact form -->
        <section id="contact-form">
        <div class="container">
-        <form id="contact" action="action_page.php">
-      
+        <form id="contact" action="thankyou.html" method="get">
+    
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input required pattern="\S(.*\S)?"  type="text" id="fname" name="firstname" placeholder="Your name..">
           <br>
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <input required pattern="\S(.*\S)?"  type="text" id="lname" name="lastname" placeholder="Your last name..">
           <br>
           <label for="email">Email address</label>
-          <input type="text" id="email" name="emailaddress" placeholder="Email address..">
+          <input required type="text" id="email" name="emailaddress" placeholder="Email address..">
           <br>
           <label for="course">Course</label>
-          <select id="course" name="Course">
+          <select required id="course" name="Course">
             <option value="beginner">Beginner</option>
             <option value="intermidiate">Intermidiate</option>
             <option value="advanced">Advanced</option>
           </select>
           <br>
           <label for="game">Game</label>
-          <select id="game" name="Game">
+          <select required id="game" name="Game">
             <option value="csgo">CSGO</option>
             <option value="rainbow6siege">Rainbow 6 siege</option>
             <option value="mw3">Modern Warfare 3</option>

@@ -64,7 +64,7 @@ main {
 #hero {
    height: 650px;
    width: 100%;
-   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/css/images/gaming.webp') no-repeat center center/cover;
+   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/gaming.webp') no-repeat center center/cover;
    position: relative; 
 }
 
@@ -131,6 +131,7 @@ img {
     height: 100%;
     width: 100%;
     display: flex;
+    background-color: #ffffff17;
 }
 
 #contact {
