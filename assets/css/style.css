@@ -123,16 +123,23 @@ img {
 }
 
 /* Info page */
+
+
 #course-info {
-    height: 1000px;
+    height: 1400px;
 }
 
 #general-info {
     margin-top: 16vh;
 }
 
-.div-info {
+li.info-list {
+    color: white;
+    list-style-type: none;
+    display: block;
+    padding: 8px;
     text-align: center;
+    margin-right: 10%;
 }
 
 /* Contact form page */
