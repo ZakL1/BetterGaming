@@ -132,6 +132,22 @@ img {
 #general-info {
     margin-top: 16vh;
 }
+.div-info {
+    background-color: #ffffff26;
+}
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+    color: #66fcf1; 
+    font-family: 'roboto', sans-serif;
+}
+
+p.info {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
 
 li.info-list {
     color: white;
