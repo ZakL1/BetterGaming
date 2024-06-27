@@ -86,6 +86,7 @@ main {
         width: 95%;
         margin: 20px auto;
         text-align: center; 
+        background-color: #ffffff26;
 }
 
 h2 {
@@ -126,14 +127,16 @@ img {
 
 
 #course-info {
-    height: 1400px;
+    height: 1800px;
 }
 
 #general-info {
     margin-top: 16vh;
+    padding: 5px;
 }
 .div-info {
     background-color: #ffffff26;
+    padding-top: 1px;
 }
 
 h4 {
@@ -158,6 +161,11 @@ li.info-list {
     margin-right: 10%;
 }
 
+h2.div-info {
+    text-align: center;
+    background-color: #ffffff01;
+}
+
 /* Contact form page */
 #contact-form {
     height: 1000px;
@@ -167,7 +175,7 @@ li.info-list {
     height: 100%;
     width: 100%;
     display: flex;
-    background-color: #ffffff17;
+    background-color: #ffffff26;
 }
 
 #contact {
@@ -181,6 +189,7 @@ input[type=text], select {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 
 /* Footer */
 footer {
@@ -251,6 +260,17 @@ footer {
         flex: 33.33%;
         padding: 5px;
     }
+    
+    /* info page */
+    #course-info {
+        height: 1500px;
+    }
+
+    /* image on info page */
+    #playing-game {
+        width: 650px;
+        height: 300px;
+    }
 
     /* Contact form */
     input[type=text], select {
@@ -294,6 +314,17 @@ footer {
         left: 130px;
         line-height: 40px;
         font-size: 36px;
+    }
+
+     /* info page */
+     #course-info {
+        height: 1450px;
+    }
+
+    /* image on info page */
+    #playing-game {
+        width: 750px;
+        height: 450px;
     }
 
     
@@ -340,6 +371,10 @@ footer {
             text-align: center;
             font-size: 50px;
         }
+        
+        #plans {
+            padding-bottom: 40px;
+        }
 
         /* Hero content*/
         #herotext {
@@ -364,6 +399,17 @@ footer {
             font-size: 20px;
             color: white; 
             font-family: 'roboto', sans-serif;
+        }
+
+        /* info page */
+        #course-info {
+            height: 1800px;
+        }
+
+        /* image on info page */
+        #playing-game {
+            width: 900px;
+            height: 600px;
         }
 
         /* image styles */
