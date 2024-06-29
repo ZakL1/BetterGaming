@@ -139,7 +139,7 @@ img {
     padding-top: 1px;
 }
 
-h4 {
+h4.info {
     text-align: center;
     font-size: 22px;
     color: #66fcf1; 
@@ -156,9 +156,8 @@ li.info-list {
     color: white;
     list-style-type: none;
     display: block;
-    padding: 8px;
+    padding: 4px;
     text-align: center;
-    margin-right: 10%;
 }
 
 h2.div-info {
@@ -190,6 +189,12 @@ input[type=text], select {
     margin-bottom: 10px;
 }
 
+/* thank you page */
+#thank_you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Footer */
 footer {
@@ -242,6 +247,10 @@ footer {
         font-size: 24px;  
     }
 
+    #hidden_heading {
+        display: none;
+    }
+
     /* Image styles */
     img {
         width: 250px;
@@ -265,6 +274,7 @@ footer {
     #course-info {
         height: 1500px;
     }
+
 
     /* image on info page */
     #playing-game {
@@ -335,9 +345,9 @@ footer {
     }
 
     /* Hero content*/
-    #herotext {
+    #herocontent {
         color: white;
-        font-size: 26px;
+        font-size: 40px;
     }
 
     
@@ -377,9 +387,9 @@ footer {
         }
 
         /* Hero content*/
-        #herotext {
+        #herocontent {
         color: white;
-        font-size: 26px;
+        font-size: 30px;
         }
         
         /* Prices section */
