@@ -1,365 +1,140 @@
 # BetterGaming
 
-![The Quiz Arms shown on a variety of screen sizes](assets/images/the-quiz-arms.png)
+BetterGaming is a site for people who want to get better at video games, it is targetted at all age groups 16+, but mainly focuses on 18-29. The goal of the website is to sell courses to people who want to get betetr at video games, whether thats to pay in an esports team or just beat a friend for once.
 
-Visit the deployed site: [BetterGaming](https://zakl1.github.io/BetterGaming/)
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-Test your general knowledge and get pub quiz ready!
+## Features 
 
-Pub Quizzes are played all around the world, but they are especially popular in the UK. It is estimated that over half the pubs in the UK host a regular quiz night, thats roughly 23,600 pubs!
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-[YouGov](https://yougov.co.uk/topics/lifestyle/explore/activity/Pub_quizzes) show that 98% of people surveyed have heard of a pub quiz, and are rated as the 19th most popular social activity.
+### Existing Features
 
-During lockdowns pub quizzes remained popular - they just changed format to become virtual. This gave me the idea of creating a quiz site that would feel like a pub quiz, where users could play on their own to improve their general knowledge anywhere and at any time.
+- __Navigation Bar__
 
-![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/TheQuizArms?color=yellow&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/TheQuizArms?color=green&style=for-the-badge)
-![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FTheQuizArms%2F)
+  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Info and Contact page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-## CONTENTS
+![Nav Bar](assets/images/navbar.PNG)
 
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
+- __The landing page image__
 
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-  * [Features](#features)
-    * [The Home Page](#the-home-page)
-    * [The Game Page](#the-game-page)
-    * [The High Scores Page](#the-high-scores-page)
-    * [The 404 Error Page](#the-404-error-page)
-    * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
+  - The landing includes a photograph with text overlay to allow the user to see exactly what this site is for.
+  - This section introduces the user to BetterGaming with an eye-catching hero image.
 
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+- __Plans Section__
 
-* [Testing](#testing)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
-  
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
+  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-- - -
-![The Quiz Arms Banner](documentation/the-quiz-arms-banner.png)
+![Plans](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-## User Experience (UX)
+- __Games we teach__
 
-### User Stories
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date. 
 
-#### First Time Visitor Goals
+![Games we teach](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-* I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere.
-* I want the site to be responsive to my device.
-* I want the site to be easy to navigate.
+- __The Footer__ 
 
-#### Returning Visitor Goals
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-* I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site.
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-#### Frequent Visitor Goals
+- __Info__
 
-* I want to be able to adjust the difficulty level to keep improving my knowledge.
-* I want to be able to log my high scores to see how I am performing.
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-- - -
+![Info](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-## Design
+- __Contact page__
 
-### Colour Scheme
+  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Red and green  are very typical colours in traditional British public houses, with the red & green used for upholstery.
+![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a hackathon - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-* I have used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text.
-* I have used `#292929` as the overlay used over the sites background image.
-* I have used `#a50c3c` for the border of the modal and to display the wrong answers.
-* I have used `#047638` to display the correct answer.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-  ![The Quiz Arms Color Scheme](documentation/color-scheme.webp)
+### Features Left to Implement
 
-### Typography
+- Another feature idea
 
-Google Fonts was used to import the chosen fonts for use in the site.
+## Testing 
 
-* For the Page Title I have used the google font [Almendra](https://fonts.google.com/specimen/Almendra?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=almendra). Almendra is based on a calligraphy style and I have chosen it as it looks like the type of font you would see on a pubs name sign, slightly medieval looking and grand.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-![Almendra Font Example](documentation/almendra.webp)
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-* For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand). QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-![Quicksand Font Example](documentation/quicksand.webp)
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-### Imagery
 
-As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
+### Validator Testing 
 
-### Wireframes
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-Wireframes were created for mobile, tablet and desktop using balsamiq.
+### Unfixed Bugs
 
-![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-### Features
+## Deployment
 
-The website is comprised of a home page, a games page, a high scores page, a 404 error page & a 500 error page.
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-All Pages on the website are responsive and have:
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-* A favicon in the browser tab.
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
-  ![favicon](documentation/favicon-image.webp)
 
-* The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![The Quiz Arms Title](documentation/the-quiz-arms-banner.png)
+## Credits 
 
-* Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-![Custom Cursor](documentation/features/custom-cursor.gif)
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-#### The Home Page
+### Content 
 
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
-
-![Home page image](documentation/features/index.png)
-
-The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
-
-![Modal open image](documentation/features/modal.png)
-
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
-
-#### The Game Page
-
-The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
-
-![Image of the game page difficulty selection buttons](documentation/features/difficulty.png)
-
-Once the user has selected their difficulty they will then be shown the quiz area. The quiz area contains the question and the 4  answer choices.
-
-when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
-
-![Image of quiz area](documentation/features/quiz.png)
-
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
-
-![End of game](documentation/features/end.png)
-
-#### The High Scores Page
-
-The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
-
-![High Scores Page Image](documentation/features/highscores.png)
-
-#### The 404 Error Page
-
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
-
-![Error page image](documentation/features/404.png)
-
-#### The 500 Error Page
-
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
-
-![500 Error Page](documentation/features/500.png)
-
-#### Future Implementations
-
-In future implementations I would like to:
-
-1. Give users the option to select the amount of questions in their quiz.
-2. Look into making the quiz a multiplayer game, so that it could be played by teams, which would make the quiz even more like a pub quiz.
-3. Create a back end database to enable me to store scores which would then allow you to see how you scored against other players.
-4. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
-
-### Accessibility
-
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
-
-* Using semantic HTML.
-* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrect.png)
-
-- - -
-
-## Technologies Used
-
-### Languages Used
-
-HTML, CSS, Javascript
-
-### Frameworks, Libraries & Programs Used
-
-* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
-
-* [Git](https://git-scm.com/) - For version control.
-
-* [Github](https://github.com/) - To save and store the files for the website.
-
-* [GitPod](https://gitpod.io/) - IDE used to create the site.
-
-* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
-
-* [jQuery](https://jquery.com/) - A JavaScript library.
-
-* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-* [TinyPNG](https://tinypng.com/) To compress images
-
-* [Birme](https://www.birme.net/) To resize images and convert to webp format.
-
-* [Favicon.io](https://favicon.io/) To create favicon.
-
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-* [Shields.io](https://shields.io/) To add badges to the README
-
-* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
-
-* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - a google chrome extension to enable you to view JSON as raw data or parsed.
-
-* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
-
-* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
-
-- - -
-
-## Deployment & Local Development
-
-### Deployment
-
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
-
-To Deploy the site using GitHub Pages:
-
-1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
-3. Click the settings button.
-4. Select pages in the left hand navigation menu.
-5. From the source dropdown select main branch and press save.
-6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
-
-### Local Development
-
-#### How to Fork
-
-To fork the repository:
-
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
-3. Click the Fork button in the top right corner.
-
-#### How to Clone
-
-To clone the repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
-- - -
-
-## Testing
-
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
-
-### Solved Bugs
-
-| No | Bug | How I solved the issue |
-| :--- | :--- | :--- |
-| 1 | An error was displaying in the console when next was clicked after the first question, stating that results wasn't defined. | Data was defined in the callApi(), so couldn't be accessed as it was in local scope rather than global scope. By defining data globally and then passing the data as a parameter into the getQuestion() in the nextQuestion() solved this. |
-| 2 | The Questions being pulled in from the JSON have HTML entity characters that are not escaped and therefore display incorrectly with symbols in place of the correct characters. ![Characters not escaping correctly in the JSON data](documentation/characters-not-escaped.webp) | After a lot of research into escaping characters, I came across a post on slack that mentioned using innerHTML rather than innerText. Once I changed the answers to innerHTML the characters are now displaying correctly. |
-| 3 | I have the local storage set up to save the final score as mostRecentScore. However when completing a game and submitting the team name the score added to the high scores section would be the previous score and not the most recent score. | After a lot of research to try and find out why this was happening I went over the code again and decided to see if I changed mostRecentScore in the scoreLog to score it would make a difference. By changing this, I have solved the issue and it now pulls the most recent score achieved. |
-| 4 | Players were able to select an answer which would then display whether correct or incorrect. However they could still click on the answers which meant they could click all the answers to receive the points.| I researched a way to disable the buttons and initially found that I could use answer1.disabled = true; This worked, however it added quite a bit of code, as I had to add this for each button. Further research led me to find [this article](https://blog.revillweb.com/jquery-disable-button-disabling-and-enabling-buttons-with-jquery-5e3ffe669ece) which showed how to use jQuery and the class on the buttons to enable and disable them all at the same time. This then allows me to enable the buttons when a new question has been populated and once a selection has been made, the answer buttons are disabled until the user clicks next to advance onto the next question. |
-| 5 | There was an issue with the data-correct not always being removed correctly from questions, which meant that incorrect answers were displaying as correct | I changed the way the data-correct attribute was removed from the answers, by using the same a for loop similar to what was used to add the data-correct attribute. I also changed the for innerText in the for loop to be innerHTML so that it was correctly reading the same as what was displayed on the button. |
-| 6 | If a user selected an incorrect answer and the correct answer contained HTML entity characters (such as /&#(\d+);/g) the correct button styling would not be applied to the displayCorrectAnswer variable and a error would display in the console. This would then prevent the user from progressing in the quiz as the next button would not display for them to move on.![Bug 6](documentation/bug-6.png) | I adjusted line 161 to use innerHTML rather than innerText, however the issue persisted. I looked for an answer online but struggled to find anything that would help. I then reached out to Bim Williams on Slack who is an alumni on the course and asked to run the problem past him. He suggested adding a function that would decode the HTML entity and then apply that function within line 161. The function takes the HTML entity characters and replaces them with the correct characters. I will be researching this topic further in my spare time to gain a deeper understanding of it. |
-
-### Known Bugs
-
-* When viewing on screens that use touch rather than a cursor, the colour change for the answer button selected is not immediately obvious as the hover state remains on the button. If the user clicks away from the button the colour can then been seen.
-
-  ![Touch Button Colour](documentation/touch-button-colour.gif)
-
-* There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
-
-  ![Console warning](documentation/interest-cohort-error.png)
-
-* When friends tested the site they found that very rarely a game will get stuck on a question, and it will not populate a new question but the question no counter continues to increase. This issue only seems to be if a large number of games are played consecutively, possibly using up the questions in the API. I have not been able to replicate this issue to troubleshoot further.
-  ![Question overloaded](documentation/questions-depleted.gif)
-
-- - -
-
-## Credits
-
-### Code Used
-
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
-
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
-
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
-
-### Content
-
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
-
-All other content for the site, such as introduction messages and instructions were written by myself.
+- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
 
-### Acknowledgments
 
-I would like to acknowledge the following people:
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-* Adegbenga  Adeye - My Code Institute Mentor.
+## Other General Project Advice
 
-* Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer buttons.
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
-* [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event listeners.
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
 
-* [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing the site.
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
 
-* [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessibility.
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
-credits 
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
 
 html from contact form was from [1]: https://www.w3schools.com/howto/howto_css_contact_form.asp            "W3schools"
