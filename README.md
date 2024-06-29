@@ -22,49 +22,42 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a photograph with text overlay to allow the user to see exactly what this site is for.
   - This section introduces the user to BetterGaming with an eye-catching hero image.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/herosection.PNG)
 
 - __Plans Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The plans section allows the user to see the 3 different courses available to choose from.
+  - It allows them to briefly assess what they are looking for.
 
-![Plans](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Plans](assets/images/planssection.PNG)
 
 - __Games we teach__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see exactly what games we teach. 
+  - This section will be updated if/when we add or remove certain games depending on popularity.
 
-![Games we teach](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Games we teach](assets/images/gamesweteachsection.PNG)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for BetterGaming. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/footer.PNG)
 
 - __Info__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The info page let's you find out more about each different course. 
+  - It is valuable to the user because they can pick the course that suits them best
+  - The reason this information isn't on the home page is because it would bombard the user and they wouldn't read it, however after their interest has peaked they can go searching for more information on this seperate page.
 
-![Info](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Info](assets/images/infopage.PNG)
 
 - __Contact page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the user to get into contact with us, they will be required to input their name, email and choose the course and game they would like to be coached in.
 
-![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
+![Contact](assets/images/Contact.PNG)
 
 ## Testing 
 
