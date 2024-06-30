@@ -2,12 +2,8 @@
 
 BetterGaming is a site for people who want to get better at video games, it is targetted at all age groups 16+, but mainly focuses on 18-29. The goal of the website is to sell courses to people who want to get betetr at video games, whether thats to pay in an esports team or just beat a friend for once.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
+![Responsive Mockup](assets/images/responsive.PNG)
+ 
 ### Existing Features
 
 - __Navigation Bar__
@@ -61,14 +57,21 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+![First bug fixes](assets/images/error.PNG)
+- Orignally the file path was 'url(assets/images/gaming.png)' but the image wasn't showing up on the deployed page so I needed to correct the file path. I changed the file path to 'url(../images/gaming.png) and this fixed the problem.
+
+![Second bug fixes](assets/images/error1.PNG)
+- These bugs were a simple fix, for the first error I had created 2 IDs with the same name, so all I had to do was rename one and that fixed the bug.
+- The next bug had a section without a heading, but because the section didn't need a heading I added a h2 tag but in css said 'display-none' so that the heading wouldn't show up on the page
+
+![Third bug fixes](assets/images/error2.PNG)
+- The last bug was a silly error, I had put a h4 starting tag and a h3 closing tag, so all I had to do was changed the closing tag to h4 and it solved the problem.
 
 ### Validator Testing 
 
@@ -83,51 +86,25 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://zakl1.github.io/BetterGaming/index.html 
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Info page was used from ChatGPT
+- The HTML used for the contact form was taken from [W3schools](https://www.w3schools.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were taken from [Google fonts](https://fonts.google.com/)
+- The Love Running project helped with some of the basic structure I used like the Nav bar and Footer
+- My mentor Jubril Akolade helped me break up the content using a different background shade for the text divs
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-
-html from contact form was from [1]: https://www.w3schools.com/howto/howto_css_contact_form.asp            "W3schools"
+- All images are from google images
