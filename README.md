@@ -53,7 +53,7 @@ BetterGaming is a site for people who want to get better at video games, it is t
 
   - This page allows the user to get into contact with us, they will be required to input their name, email and choose the course and game they would like to be coached in.
 
-![Contact](assets/images/Contact.PNG)
+![Contact](assets/images/contact.PNG)
 
 ## Testing 
 
