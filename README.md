@@ -57,12 +57,6 @@ BetterGaming is a site for people who want to get better at video games, it is t
 
 ## Testing 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ![First bug fixes](assets/images/error.PNG)
 - Orignally the file path was 'url(assets/images/gaming.png)' but the image wasn't showing up on the deployed page so I needed to correct the file path. I changed the file path to 'url(../images/gaming.png) and this fixed the problem.
 
