@@ -2,6 +2,8 @@
 
 BetterGaming is a site for people who want to get better at video games, it is targetted at all age groups 16+, but mainly focuses on 18-29. The goal of the website is to sell courses to people who want to get betetr at video games, whether thats to pay in an esports team or just beat a friend for once.
 
+The user can read through the 3 different courses and see which one suits them best, if the user is interested they can click on the contact page and fill out the form. 
+
 ![Responsive Mockup](assets/images/responsive.PNG)
  
 ### Existing Features
@@ -52,6 +54,7 @@ BetterGaming is a site for people who want to get better at video games, it is t
 - __Contact page__
 
   - This page allows the user to get into contact with us, they will be required to input their name, email and choose the course and game they would like to be coached in.
+  - Once submitted the user will be sent to a page to say thank you for completing the form, this way the user is sure that the form had no errors
 
 ![Contact](assets/images/contact.PNG)
 
@@ -76,7 +79,10 @@ BetterGaming is a site for people who want to get better at video games, it is t
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+When submitting the contact form the users doesn't have to input a valid email address, this means the user would not get a response because they didn't use an email address
+
+Things I would have done differently - used dev tools more especially for flexbox
+                                     - I would have created a flowchart to make it easier for me to work in order and fix bugs as I go along
 
 ## Deployment
 
